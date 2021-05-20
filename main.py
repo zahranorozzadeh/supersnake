@@ -34,8 +34,8 @@ class Pear:
 
 class Mine:
     def __init__(self):
-        self.w = 20
-        self.h = 20
+        self.w = 18
+        self.h = 18
         self.x = random.randrange(40, width - 40)
         self.y = random.randrange(40, height - 40)
         self.color = (138, 43, 226)
